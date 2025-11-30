@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -381,6 +374,13 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .social-links a i {
+  color: white;
+}
+.about .social-links a i:hover {
+  color :#3c66a0
 }
 
 /*--------------------------------------------------------------

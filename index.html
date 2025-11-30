@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/fajar.jpeg" rel="icon">
+  <link href="assets/img/fajar profile.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -26,9 +26,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/skillsection.css" rel="stylesheet">
+  <link href="assets/css/loader.css" rel="stylesheet">
+  
 
 </head>
-
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -53,6 +55,7 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Skills</span></a></li>
           <li><a href="#certificate" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Certificate</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -64,7 +67,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Mohamad Fajar Agung</h1>
-      <p>I'm Mobile, Web Developer, & Content Creator</p>
+      <p>I'm Mobile/Web Developer, & Content Creator</p>
     </div>
   </section><!-- End Hero -->
 
@@ -74,14 +77,18 @@
     <section id="about" class="about">
       <div class="container">
 
-        <div class="section-title">
+            <!-- Loader -->
+    <div id="about-loader" class="about-loader"></div>
+
+    <div id="about-content" style="display: none;">
+            <div class="section-title">
           <h2>About</h2>
           <p>I am a graduate of Informatics Engineering from Universitas Muslim Indonesia Makassar, focusing on mobile, web application development, content creator. On this website, I will showcase the projects I have created.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/fajar profile.jpeg" class="img-fluid" alt="">
+            <img id="about-image" src="assets/img/fajar profile.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Mobile & Web Developer</h3>
@@ -107,6 +114,10 @@
           </div>
         </div>
 
+    </div>
+
+    
+
       </div>
     </section><!-- End About Section -->
 
@@ -118,7 +129,7 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Here is the project that I have created, <b>click on a project to show blue button to open project details</b> </p>
+          <p>Here is the project that I have created,  <b>click on a project to show</b> <b style="color: #3c66a0;">blue button</b> <b>to open project details!</b> </p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -221,6 +232,87 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    <!-- Skill Section -->
+<section id="skills" class="container py-5">
+     <div class="section-title">
+              <h2>Skills</h2>
+              <p></p>
+            </div>
+
+  <div class="row justify-content-center text-center g-4" >
+        <h3 data-aos="fade-right" data-aos-delay="100" >Soft Skills</h3>
+    <!-- Communication Skill -->
+    <div data-aos="fade-right" data-aos-delay="100" class="col-6 col-md-3">
+      <div class="soft-skill" style="--percent: 324deg;"> <!-- 90% -->
+        <span>90%</span>
+      </div>
+      <p class="mt-2 fw-semibold">Communication</p>
+    </div>
+    <!-- Problem Solving -->
+    <div data-aos="fade-right" data-aos-delay="100" class="col-6 col-md-3">
+      <div class="soft-skill" style="--percent: 324deg;"> <!-- 90% -->
+        <span>95%</span>
+      </div>
+      <p class="mt-2 fw-semibold">Problem Solving</p>
+    </div>
+    <!-- Critical Thinking -->
+    <div data-aos="fade-right" data-aos-delay="100" class="col-6 col-md-3">
+      <div class="soft-skill" style="--percent: 324deg;"> <!-- 90% -->
+        <span>90%</span>
+      </div>
+      <p class="mt-2 fw-semibold">Critical Thinking</p>
+    </div>
+
+   
+    <h3 style="margin-top: 50px;" data-aos="fade-left" data-aos-delay="100">Hard Skills</h3>
+    <!-- Web Development -->
+    <div class="col-6 col-md-3" data-aos="fade-left" data-aos-delay="100">
+      <div class="hard-skill" style="--percent: 324deg;"> <!-- 90% -->
+        <span>80%</span>
+      </div>
+      <p class="mt-2 fw-semibold">Web Development (Html, Css, JavaScript, React)</p>
+    </div>
+
+    <!-- Android Development -->
+    <div class="col-6 col-md-3" data-aos="fade-left" data-aos-delay="100">
+      <div class="hard-skill" style="--percent: 306deg;"> <!-- 85% -->
+        <span>85%</span>
+      </div>
+      <p class="mt-2 fw-semibold">Android Develoment (Kotlin)</p>
+    </div>
+
+    <!-- JavaScript Skill -->
+    <div class="col-6 col-md-3" data-aos="fade-left" data-aos-delay="100">
+      <div class="hard-skill" style="--percent: 252deg;"> <!-- 70% -->
+        <span>85%</span>
+      </div>
+      <p class="mt-2 fw-semibold">UI/UX Design (Figma)</p>
+    </div>
+
+    <!-- Language -->
+         <h3 style="margin-top: 50px;" data-aos="fade-up" data-aos-delay="100">Language</h3>
+    <!-- Indonesia -->
+    <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="language-skill" style="--percent: 324deg;"> <!-- 90% -->
+        <span>95%</span>
+      </div>
+      <p class="mt-2 fw-semibold">Indonesia</p>
+    </div>
+
+    <!-- English -->
+    <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="language-skill" style="--percent: 306deg;"> <!-- 85% -->
+        <span>80%</span>
+      </div>
+      <p class="mt-2 fw-semibold">English</p>
+    </div>
+
+
+
+  </div>
+</section>
+    <!-- End Skills Section -->
+
         <!-- ======= Experience Section ======= -->
         <section id="experience" class="experience section-bg">
           <div class="container">
@@ -269,7 +361,7 @@
   
           <div class="section-title">
             <h2>Certificate</h2>
-            <p>Here are the certificates that I got while learning about android development</p>
+            <p>Here are my certificates</p>
           </div>
   
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
@@ -466,6 +558,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/loader.js"></script>
+
 
 </body>
 

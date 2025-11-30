@@ -1,0 +1,85 @@
+/* Soft Skill */
+
+.soft-skill {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: conic-gradient(
+      #45c5a5 var(--percent),
+      #e6e6e6 0deg
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.soft-skill span{
+     background: #1a1f2d ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/* End Softskill */
+
+
+/* Hard Skill */
+.hard-skill {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: conic-gradient(
+      #4e73df var(--percent),
+      #e6e6e6 0deg
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.hard-skill span {
+  background: #1a1f2d ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/* Langugage skill */
+.language-skill {
+      width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: conic-gradient(
+      #d8963f var(--percent),
+      #e6e6e6 0deg
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.language-skill span{
+      background: #1a1f2d ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
